@@ -12,6 +12,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class Main implements ApplicationRunner {
 
+
+
+
+
     @Autowired
     private FeignStub feignStub;
 
